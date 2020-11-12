@@ -253,6 +253,13 @@ p:nth-of-type (even) {
     /* Styles */
     body {
       background-color: purple;
+      color: white;
+    }
+
+
+    .container {
+      max-width: calc(992px - 3rem) ;
+      margin: 0 auto;
     }
 
 
