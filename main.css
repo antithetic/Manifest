@@ -1,4 +1,5 @@
 /* font import -----------*/
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Playfair+Display:wght@300;500;700&display=swap');
 
 /* ::::::: MANIFEST >>>> CSSS ::::::
 ----------- by filoso -----------   
@@ -25,21 +26,96 @@
 - Media Queries
 */
 
-/* - Variables   >>> add to template
+/* - Variables   >>> add to template */
+
+:root {
+  /* colors */
+--ghost-white: hsla(240, 100%, 98%, 1);
+--tuscany: hsla(9, 30%, 67%, 1);
+--carolina-blue: hsla(206, 88%, 55%, 1);
+--black-coral: hsla(220, 7%, 41%, 1);
+--smoky-black: hsla(330, 6%, 7%, 1);
+
+/* fonts */
+--copy: 'Didact Gothic', sans-serif;
+--heading:  'Playfair Display', serif;
+--heading-weight: 700;
+--title-weight: 500;
+--light-weight: 300;
+--font-size: 1rem;
+--line-height: 1.5;
+
+
+
+}
 
 /* - Grid */
 
-/* - Base Styles */
+.footer h2{
+  text-align: center;
+}
 
-body {
-
+footer p {
+  text-align: center;
 }
 
 /* - Base Styles */
 
+html {
+  font-size: 100%;
+}
+
+body {
+
+    background-color: var(--ghost-white);
+    Font-family: var(--copy);
+    font-size: var(--font-size);
+    font-weight: var(--light-weight);
+    line-height: var(--line-height); 
+    color: var(--smoky-black);
+
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+h1 {
+  font-family: var(--heading);
+  font-weight: var(--copy-weight);
+  font-size: calc( var(--font-size) * 2.5);
+}
+
+section img {
+  width: 100%;
+  height: auto;
+}
+/* - Base Styles */
+
 /* - Typography */
 
+nav header h1 {
+  font-size: 15vw;
+}
+
+h1, h2 {
+  font-family: var(--heading);
+}
+
 /* - Links */
+
+a {
+  display: inline;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--ghost-white) ;
+  background-color: var(--smoky-black);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align:center;
+  display: block;
+}
+
+section.hello a {
+}
 
 /* - Buttons */
 
@@ -58,18 +134,59 @@ body {
 /* ----------- media queries ----------- */
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-    /* Styles */
-  }
 
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
     /* Styles */
-  }
+    body {
+      margin: auto 2rem;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      height: auto;
    
-  /* Large screens ----------- */
-  @media only screen and (min-width : 1824px) {
+    }
+
+    section {
+      margin: 7rem 0rem;;
+    }
+
+    section p:nth-child(odd) {
+      text-align: jusify;
+    } 
+    section p {
+      margin: 3rem 1.5rem;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
     /* Styles */
-  }
+    body {
+      background-color: lightcoral;
+
+
+    }
+ 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* Styles */
+    body {
+      background-color: purple;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Styles */
+}
+
+
+
+
    
