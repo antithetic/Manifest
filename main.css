@@ -228,12 +228,13 @@ p:nth-of-type (even) {
     /* Styles */
     body {
       background-color: hsl( 0, 79%, 72% );
-      margin: 4rem 3rem;
+      width: 100vw;
 
     }
 
     .container {
       max-width: calc(768px - 3rem) ;
+      margin: 0 auto;
     }
     section {
       margin: 10rem 0rem;;
