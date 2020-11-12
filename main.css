@@ -1,0 +1,75 @@
+/* font import -----------*/
+
+/* ::::::: MANIFEST >>>> CSSS ::::::
+----------- by filoso -----------   
+----------- @antithetic (ig) -----------
+::::::::::::::::::::::::::::::::::::
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Variables  >>> add to template  
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+/* - Variables   >>> add to template
+
+/* - Grid */
+
+/* - Base Styles */
+
+body {
+
+}
+
+/* - Base Styles */
+
+/* - Typography */
+
+/* - Links */
+
+/* - Buttons */
+
+/* - Forms */
+
+/* - Lists */
+
+/* - Code */
+
+/* - Tables */
+
+/* - Spacing */
+
+/* - Utilities */
+
+/* ----------- media queries ----------- */
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+  }
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+  }
+   
+  /* Large screens ----------- */
+  @media only screen and (min-width : 1824px) {
+    /* Styles */
+  }
+   
