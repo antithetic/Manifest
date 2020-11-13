@@ -169,6 +169,7 @@ img:hover {
 }
 
 section.hello a {
+    text-decoration: none;
 }
 
 /* - Buttons */
@@ -207,7 +208,7 @@ section.hello a {
       margin: 7rem 0rem;;
     }
 
-p:nth-of-type (even) { 
+p:nth-of-type(even) { 
       text-align: right;
     }
 
